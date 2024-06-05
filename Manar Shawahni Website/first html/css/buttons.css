@@ -1,0 +1,67 @@
+.social-sharing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.button, .social-button {
+    padding: 12px 18px;  
+    background: linear-gradient(135deg, #d39bcf, #af7d9f); /* Gradient background */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded corners */
+    margin: 5px;
+    font-size: 16px; /* Increased font size */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    
+}
+
+.social-button i {
+    font-size: 20px;
+}
+
+.button:hover, .social-button:hover {
+    background: linear-gradient(135deg, #985a84, #724865); /* Darker gradient on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.order-button {
+    background-color: #985a84; 
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: block; 
+    width: 200px; 
+    margin: 20px auto; 
+    cursor: pointer; 
+    border: none; 
+    font-size: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+
+.cookie-item input[type="checkbox"] {
+    margin-top: 10px; 
+    cursor: pointer; 
+}
+
+.cookie-item label {
+    font-size: 12px; 
+    color: #6a6a6a; 
+    margin-left: 5px; 
+}
+
