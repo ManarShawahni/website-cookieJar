@@ -1,0 +1,90 @@
+
+header {
+    display: grid;
+    grid-template-areas: "logo nav";
+    align-items: center;
+    padding: 10px;
+    background-color: #b784a7; 
+    color: white;
+}
+
+.logo {
+    grid-area: logo;
+    width: 100px;
+}
+
+.cover-image {
+    background-image: url('../assets/Manar\ Cookies.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    width: 100%;
+}
+
+
+nav ul {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 0;
+    list-style-type: none; 
+    margin: 0; 
+    background-color: #b784a7;
+    text-align: center;
+    padding: 0;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #985a84;
+}
+footer {
+    padding: 15px 20px;
+    background-color: #b784a7;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    height: 60px; 
+    overflow: hidden;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.card {
+    background-color: #d2abc6; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    padding: 15px; 
+    margin: 10px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    max-width: 480px;  
+}
+
+
+.button:hover {
+    background-color: #985a84; 
+}
+
+figure, figcaption {
+    text-align: center;
+    color: #212836;
+}
