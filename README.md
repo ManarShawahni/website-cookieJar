@@ -1,4 +1,4 @@
-# First-website-cookieJar Store
+# CookieJar Website Store
 
 ## Description
 
