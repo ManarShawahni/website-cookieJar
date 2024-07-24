@@ -1,4 +1,4 @@
-# CookieJar Website Store
+# CookieJar Store Website
 
 ## Description
 
